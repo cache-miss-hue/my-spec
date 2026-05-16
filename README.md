@@ -81,6 +81,10 @@ my-spec/
 
 详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
+## 致谢
+
+感谢 [Matt Pocock](https://github.com/mattpocock) 的 [`grill-me`](https://github.com/mattpocock/skills) skill。`my-
+spec` 的提问式澄清流程受到它的启发：在生成计划前，先通过逐步追问把目标、约束和取舍确认清楚。
 ## 许可证
 
 本项目使用 [MIT License](LICENSE)。
