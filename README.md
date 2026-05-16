@@ -25,7 +25,7 @@
 把本仓库克隆或复制到你的 Codex skills 目录中，例如：
 
 ```powershell
-git clone https://github.com/<your-name>/my-spec.git C:\Users\<you>\.codex\skills\my-spec
+git clone https://github.com/cache-miss-hue/my-spec.git C:\Users\<you>\.codex\skills\my-spec
 ```
 
 如果你使用的是其他 `CODEX_HOME`，请把目标路径替换为：
