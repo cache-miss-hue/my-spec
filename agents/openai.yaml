@@ -1,7 +1,7 @@
 interface:
   display_name: "My Spec"
-  short_description: "Create project plans and implementation specs"
-  default_prompt: "Use $my-spec to turn this project idea into a clear first plan."
+  short_description: "Clarify projects into plans and implementation specs"
+  default_prompt: "Use $my-spec to interview me until the project is clear, then create a first plan."
 
 metadata:
   author: "cache-miss-hue"
