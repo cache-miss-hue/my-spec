@@ -52,12 +52,13 @@ Prefer this format:
 - A. <option A>
 - B. <option B>
 - C. <option C>
+- D. 其他：直接描述你的想法
 
 推荐：<the option or answer you recommend, with assumptions if needed>
 
 理由：<why this recommendation is likely best, including the key tradeoff>
 
-如果你同意，我会按这个继续追问下一个关键问题；如果不同意，你可以选其他方向或补充你的答案。
+如果你同意，我会按这个继续追问下一个关键问题；如果不同意，你可以选其他方向，或选 D 直接补充你的答案。
 ```
 
 When the decision is not naturally multiple-choice, ask a focused open question and still include a recommended answer:
