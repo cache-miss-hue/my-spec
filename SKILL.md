@@ -43,22 +43,29 @@ Interview the user relentlessly about every aspect of the plan until there is a 
 
 When several realistic options exist, present the options clearly and still provide your recommendation. Let the user accept the recommendation, choose another option, ask a follow-up question, or provide a different answer.
 
-Prefer this format:
+When `request_user_input` is available, use it for interview questions instead of writing Markdown option lists:
+
+- Ask exactly one question.
+- Provide 2 to 3 mutually exclusive options.
+- Put the recommended option first and suffix its label with `(Recommended)`.
+- Do not add an `Other` option manually; the Codex client adds the free-form Other input automatically.
+- Keep each option label short, and put the tradeoff in the option description.
+
+If `request_user_input` is unavailable, fall back to this concise Markdown format:
 
 ```markdown
 问题：<one important unresolved decision>
 
 可选方向：
-- A. <option A>
+- A. <recommended option>
 - B. <option B>
 - C. <option C>
-- D. 其他：直接描述你的想法
 
 推荐：<the option or answer you recommend, with assumptions if needed>
 
 理由：<why this recommendation is likely best, including the key tradeoff>
 
-如果你同意，我会按这个继续追问下一个关键问题；如果不同意，你可以选其他方向，或选 D 直接补充你的答案。
+如果你同意，我会按这个继续追问下一个关键问题；如果不同意，你可以选其他方向，或直接补充你的答案。
 ```
 
 When the decision is not naturally multiple-choice, ask a focused open question and still include a recommended answer:
