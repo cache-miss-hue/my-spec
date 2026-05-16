@@ -1,0 +1,8 @@
+interface:
+  display_name: "My Spec"
+  short_description: "Create project plans and implementation specs"
+  default_prompt: "Use $my-spec to turn this project idea into a clear first plan."
+
+metadata:
+  author: "cache-miss-hue"
+  version: "0.1"
